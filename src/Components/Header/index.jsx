@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './style.css'
+import Button from '../Button';
 
 export default function Header() {
     return (
@@ -15,9 +16,9 @@ export default function Header() {
                 <a className='nav_links' href='#'>Ajuda</a>
             </nav>
 
-            <div id='button-container'>
-                <button id='button-container_entrar'>ENTRAR</button>
-                <button id='button-container_criar-conta'>CRIAR CONTA</button>
+            <div id='button-container-header'>
+                <Button classNameComponent='button-container_class' idComponent='button-container_entrar' content='ENTRAR'/>
+                <Button classNameComponent='button-container_class' idComponent='button-container_criar-conta' content='CRIAR CONTA'/>
             </div>
 
         </header>
