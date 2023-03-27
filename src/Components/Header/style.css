@@ -1,0 +1,68 @@
+.header {
+    align-items: center;
+    display: flex;
+    height: 15vh;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.header_titulo {
+    color: #618CFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 42px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.nav_links {
+    color: #000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+.buttons_entrar {
+    background-color: #3155A7;
+    color: #ffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    width: 171px;
+    height: 51px;
+}
+
+.buttons_criar-conta {
+    box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    color: #000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    height: 51px;
+    width: 171px;
+}
