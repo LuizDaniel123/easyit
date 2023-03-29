@@ -1,9 +1,10 @@
 #main {
     align-items: center;
     display: flex;
-    justify-content: space-evenly;
-    width: 100vw;
+    justify-content: space-between;
     height: 85vh;
+    padding: 0 10rem;
+    width: calc(100vw - 20rem);
 }
 
 #information {
