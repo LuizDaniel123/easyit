@@ -1,4 +1,6 @@
-.card-container {
+import styled from "styled-components";
+
+export const CardContainer = styled.div`
     align-items: center;
     background-color: #fff;
     border-radius: 7px 7px 7px 7px;
@@ -7,9 +9,9 @@
     flex-direction: column;
     height: 15rem;
     width: calc((100% - 3rem) / 4);
-}
+`;
 
-.img-container {
+export const ImgContainer = styled.div`
     align-items: center;
     background-color: #dedee2;
     border-radius: 7px 7px 0px 0px;
@@ -18,14 +20,14 @@
     justify-content: center;
     height: 45%;
     width: 100%;
-}
+`;
 
-.img-container_img {
+export const ImgContainerImg = styled.img`
     width: 80px;
     height: 80px;
-}
+`;
 
-.card-container_title {
+export const CardContainerTitle = styled.span`
     color: #000;
     font-family: 'Gilroy';
     font-style: normal;
@@ -35,16 +37,16 @@
     text-align: center;
     margin: 0.5rem 0;
     width: 90%;
-}
+`;
 
-.card-container_text {
+export const CardContainerText = styled.p`
     color: rgba(0, 0, 0, 0.65);
     opacity: 65%;
     font-family: 'Archivo';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 14.5px;
     line-height: 16px;
     text-align: center;
     width: 90%;
-}
+`;

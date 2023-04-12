@@ -1,31 +1,21 @@
 import React from 'react'
-import './style.css'
+import './styled.js'
 import Mockup_main from '../../img/Mockup-main.svg'
 import Button from '../Button'
+import { ContainerButton } from '../Header/styled'
+import { InformationContainer, Main, Title } from './styled.js'
 
 export default function Information() {
   return (
-
-    <main id='main'>
-
-        <div id='information'>
-
-            <h1 id='information_titulo'>Parcele suas compras via pix sem cartão em até 4x sem juros.</h1>
-
-            <div id='button-container-main'>
-
-              <Button classNameComponent='button-container_button' content='QUERO PARCELAR'/>
-
-              <Button classNameComponent='button-container_button' content='MAS COMO?'/>
-
-            </div>
-
-
-        </div>
-
+    <Main>
+        <InformationContainer>
+            <Title>Parcele suas compras via pix sem cartão em até 4x sem juros.</Title>
+              <ContainerButton>
+                <Button classNameComponent='button-container_button' idComponent='button-container_entrar' content='QUERO PARCELAR'/>
+                <Button classNameComponent='button-container_button' idComponent='button-container_criar-conta' content='MAS COMO?'/>
+              </ContainerButton>
+        </InformationContainer>
         <img id='mockup-main' src={Mockup_main} alt='imagem de pagamento de um produto pela easyit'></img>
-
-    </main>
-
+    </Main>
   )
 }

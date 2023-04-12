@@ -1,8 +1,11 @@
 import React from 'react'
-import './style.css'
+import Container from './styled.js'
 
 export default function Button({content, idComponent, classNameComponent}) {
   return (
-    <button className={classNameComponent} id={idComponent}>{content}</button>
+
+    <Container>
+      <button id={idComponent} className={classNameComponent}>{content}</button>
+    </Container>
   )
 }
