@@ -9,7 +9,8 @@ const App = () => {
         <>
             <Header/>
             <Information/>
-            <InformationOnHowToPay title='Como parcelar?' caption='Em poucos passos você pode parcelar sua compra sem cartão de crédito.'/>
+            <InformationOnHowToPay title='Como parcelar?' location='Installments' caption='Em poucos passos você pode parcelar sua compra sem cartão de crédito.'/>
+            <InformationOnHowToPay title='Vantagens' location='Benefits'/>
         </>
     )
 }
